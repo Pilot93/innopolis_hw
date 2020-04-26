@@ -2,7 +2,7 @@
 int main()
 {
 	int i;
-	i = 2;
+	i = 5;
 	while(i) {
 		fork();
 		sleep(5);
