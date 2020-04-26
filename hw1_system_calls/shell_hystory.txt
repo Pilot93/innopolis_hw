@@ -1,0 +1,65 @@
+  724  cd innopolis/
+  725  ls
+  726  rm test-mic.wav 
+  727  ls
+  728  mkdir hw1_system_calls
+  729  cd hw1_system_calls/
+  730  vim hw1_prob1_fork.c
+  731  gcc hw1_prob1_fork.c -o prob1
+  732  ./prob1 
+  733  ./prob1 &
+  734  pstree
+  735  fg
+  736  pstree
+  737  ./prob1 &
+  738  jobs
+  739  pstree
+  740  pstree | grep 'prob1'
+  741  jobs
+  742  git config --list
+  743* 
+  744  git init
+  745  git add hw1_system_calls
+  746  git add hw1_system_calls/*c
+  747  git commit -m 'initial hw project'
+  748  git remote add origin https://github.com/Pilot93/innopolis_hw.git
+  749  git push -u origin master
+  750  ls
+  751  cd hw1_system_calls/
+  752  ls
+  753  history
+  754  ./prob1 &
+  755  pstree
+  756  cat >> answer.txt
+  757  fg
+  758  cat answer.txt 
+  759  jobs
+  760  fg #1
+  761  gcc hw1_prob1_fork.c -o prob1
+  762  ./prob1 &
+  763  pstree
+  764  vim answer.txt 
+  765  jobs
+  766  vim hw1_prob1_fork.c 
+  767  fg
+  768  cat hw1_prob1_fork
+  769  cat hw1_prob1_fork.c 
+  770  rm hw1_prob1_fork_v2.c 
+  771  gcc hw1_prob1_fork.c -o prob2
+  772  ./prob2 &
+  773  pstree
+  774  ./prob2 &
+  775  pstree
+  776  pstree | grep 'pstree'
+  777  grep man
+  778  man grep
+  779  pstree | grep -A 'gnome-terminal' -B 'pstree'
+  780  pstree | grep -A 'terminal' -B 'pstree'
+  781  pstree | grep -A -B 'terminal' 'pstree'
+  782  pstree | grep -A 'gnome-terminal'
+  783  ./prob2 &
+  784  pstree
+  785  vim answer.txt 
+  786  history | less
+  787  history | tail -n 65 | shell_hystory.txt
+  788  history | tail -n 65 > shell_hystory.txt

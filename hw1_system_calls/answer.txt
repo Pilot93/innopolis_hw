@@ -1,0 +1,5 @@
+for first version of problem i've seen 8 running processes of program
+that's happening because after every cycle or programs divide itself in two
+so for 3 cycle we'll see 2^3 programs
+
+for second version it's 32 running processes
