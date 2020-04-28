@@ -1,0 +1,160 @@
+  813  cd hw1_system_calls/
+  814  ls
+  815  mkdir problem2/
+  816  cd problem
+  817  cd problem2
+  818  man man
+  819  man3 open
+  820  man 3 open
+  821  man man
+  822  man -3 open
+  823  man man
+  824  man open.3
+  825  man man
+  826  man open
+  827  vim minishell.c
+  828  gcc minishell.c -o prob2
+  829  fg
+  830  gcc minishell.c -o prob2
+  831  fg
+  832  gcc minishell.c -o prob2
+  833  fg
+  834  gcc minishell.c -o prob2
+  835  ./rob2
+  836  ls
+  837  ./prob2 
+  838  fg
+  839  gcc minishell.c -o prob2
+  840  fg
+  841  gcc minishell.c -o prob2
+  842  fg
+  843  gcc minishell.c -o prob2
+  844  fg
+  845  gcc minishell.c -o prob2
+  846  fg
+  847  gcc minishell.c -o prob2
+  848  ./prob2 
+  849  fg
+  850  gcc minishell.c -o prob2
+  851  fg
+  852  gcc minishell.c -o prob2
+  853  ./prob2 
+  854  gcc minishell.c -o prob2
+  855  ./prob2 
+  856  fg
+  857  gcc minishell.c -o prob2
+  858  ./prob2 
+  859  pstree
+  860  ./prob2 
+  861  fg
+  862  gcc minishell.c -o prob2
+  863  ./prob2 
+  864  fg
+  865  gcc minishell.c -o prob2
+  866  ./prob2 
+  867  fg
+  868  gcc minishell.c -o prob2
+  869  fg
+  870  gcc minishell.c -o prob2
+  871  ./prob2 
+  872  fg
+  873  gcc minishell.c -o prob2
+  874  fg
+  875  gcc minishell.c -o prob2
+  876  ./prob2 
+  877  fg
+  878  gcc minishell.c -o prob2
+  879  fg
+  880  gcc minishell.c -o prob2
+  881  fg
+  882  gcc minishell.c -o prob2
+  883  fg
+  884  gcc minishell.c -o prob2
+  885  fg
+  886  gcc minishell.c -o prob2
+  887  fg
+  888  gcc minishell.c -o prob2
+  889  ./prob2 
+  890  man excve
+  891  execve
+  892  man 3 execve
+  893  man 3 execve()
+  894  man 3 execv
+  895  fg
+  896  gcc minishell.c -o prob2
+  897  ./prob2 
+  898  fg
+  899  gcc minishell.c -o prob2
+  900  ./prob2 
+  901  fg
+  902  gcc minishell.c -o prob2
+  903  fg
+  904  gcc minishell.c -o prob2
+  905  ./prob2 
+  906  fg
+  907  gcc minishell.c -o prob2
+  908  ./prob2 
+  909  fg
+  910  gcc minishell.c -o prob2
+  911  fg
+  912  ./prob2 
+  913  fg
+  914  gcc minishell.c -o prob2
+  915  fg
+  916  gcc minishell.c -o prob2
+  917  fg
+  918  gcc -d TEST minishell.c -o prob2
+  919  gcc -Wall -g -D TEST minishell.c -o prob2
+  920  fg
+  921  gcc -Wall -g -D TEST minishell.c -o prob2
+  922  fg
+  923  gcc -Wall -g -D TEST minishell.c -o prob2
+  924  ./prob2 
+  925  top
+  926  fg
+  927  git add ../problem2/fg
+  928  fg
+  929  gcc -Wall -g -D TEST minishell.c -o prob2
+  930  fg
+  931  gcc -Wall -g -D TEST minishell.c -o prob2
+  932  ./prob2 
+  933  fg
+  934  gcc -Wall -g -D TEST minishell.c -o prob2
+  935  ./prob2 
+  936  fg
+  937  gcc -Wall -g -D TEST minishell.c -o prob2
+  938  fg
+  939  gcc -Wall -g -D TEST minishell.c -o prob2
+  940  fg
+  941  gcc -Wall -g -D TEST minishell.c -o prob2
+  942  ./prob2 
+  943  fg
+  944  gcc -Wall -g -D TEST minishell.c -o prob2
+  945  ./prob2 
+  946  fg
+  947  gcc -Wall -g -D TEST minishell.c -o prob2
+  948  fg
+  949  gcc -Wall -g -D TEST minishell.c -o prob2
+  950  ./prob2 
+  951  ап
+  952  fg
+  953  gcc -Wall -g -D TEST minishell.c -o prob2
+  954  fg
+  955  gcc -Wall -g -D TEST minishell.c -o prob2
+  956  fg
+  957  gcc -Wall -g -D TEST minishell.c -o prob2
+  958  fg
+  959  gcc -Wall -g -D TEST minishell.c -o prob2
+  960  ./prob2 
+  961  fg
+  962  gcc -Wall -g -D TEST minishell.c -o prob2
+  963  ./prob2 
+  964  jobs
+  965  fg
+  966  jobs
+  967  fg
+  968  gcc -Wall -g minishell.c -o prob2
+  969  ./prob2 
+  970  history
+  971  history | less
+  972  history | tail -n 160 > shell_history.txt
