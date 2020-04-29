@@ -1,0 +1,50 @@
+  734  cd problem4
+  735  mkdir abc
+  736  mkdir xyz
+  737  touch ./abc/file.txt
+  738  cd xyz
+  739  link ../abc/file.txt ./_some_file.txt
+  740  ls
+  741  find _some_file.txt -inum inodenumber
+  742  man find
+  743  cd ../abc
+  744  ls
+  745  ls -i
+  746  find . -inum 1050097
+  747  find .. -inum 1050097
+  748  find .. -inum 1050097 > output.txt
+  749  find .. -inum 1050097 -exec rm {}\; 
+  750  find .. -inum 1050097 -exec rm {}y
+  751  find .. -inum 1050097 -exec rm {} \;
+  752  find .. -inum 1050097 > output2.txt
+  753  cat output2.txt 
+  754  cat output1.txt 
+  755  cat output.txt 
+  756  cd ../..
+  757  mkdir problem5
+  758  cd problem5
+  759  touch ex5.txt
+  760  hello > ex5.txt 
+  761  echo "hello" > ex5.txt 
+  762  cat ex5.txt 
+  763  echo "hello" > ex5.txt 
+  764  cat ex5.txt 
+  765  echo "hello" >> ex5.txt 
+  766  cat ex5.txt 
+  767  ls -la
+  768  man chmod
+  769  chmod -x ex5.txt 
+  770  ls -la
+  771  chmod +x ex5.txt 
+  772  ls -la > ex5.txt 
+  773  chmod -x ex5.txt >> ex5.txt 
+  774  man chmod
+  775  chmod uo +rwx ex5.txt 
+  776  man chmod
+  777  chmod uo+rwx ex5.txt 
+  778  ls -la >> ex5.txt 
+  779  cat ex5.txt
+  780  chmod g-r ex5.txt
+  781  ls -la >> ex5.txt 
+  782  cat ex5.txt
+  783  history |tail -n 50 > history.txt

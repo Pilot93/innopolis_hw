@@ -1,0 +1,1 @@
+nothing happens, new process gets same descriptor of this file, and can use it as parent process

@@ -1,0 +1,12 @@
+total 8
+drwxr-xr-x 2 pilot pilot 4096 апр 29 11:29 .
+drwxr-xr-x 7 pilot pilot 4096 апр 29 11:25 ..
+-rwxr-xr-x 1 pilot pilot    0 апр 29 11:35 ex5.txt
+total 12
+drwxr-xr-x 2 pilot pilot 4096 апр 29 11:29 .
+drwxr-xr-x 7 pilot pilot 4096 апр 29 11:25 ..
+-rwxr--rwx 1 pilot pilot  159 апр 29 11:35 ex5.txt
+total 12
+drwxr-xr-x 2 pilot pilot 4096 апр 29 11:29 .
+drwxr-xr-x 7 pilot pilot 4096 апр 29 11:25 ..
+-rwx---rwx 1 pilot pilot  319 апр 29 11:39 ex5.txt
