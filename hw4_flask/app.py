@@ -24,10 +24,10 @@ def mov_atr(title):
     else:
         return '', 404
 
-@app.route('/year/<year_foo>')
+@app.route('/year/<int:year_foo>')
 def mov_by_year(year_foo):
     if data['startYear'].isin([year_foo]).any():
-        res_3 =  data[data['startYear'] == year_foo][['primaryTitle']].to_json(orient='records')
+        res_3 =  data[data['startYear'] == year_foo][['tconst']].to_json(orient='values')
         return res_3
     else:
         return '', 404
