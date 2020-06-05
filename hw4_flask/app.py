@@ -35,8 +35,10 @@ def mov_by_year(year_foo):
 @app.route('/suggest/<int:topk>', methods=['POST'])
 def recommend(topk):
     data = request.get_json()
+    if not 'likes' in data:
+        return 'missing "likes"', 400
     print(data['likes'])
-
+    
     return jsonify(data)
 
 if __name__ == '__main__':
